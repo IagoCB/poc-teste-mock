@@ -12,7 +12,7 @@ Essa PoC, consiste na implementação de uma aplicação fake, para simular um C
 ## 🧩 Como executar <a name="Como-executar"></a>
 1. Utilizando o terminal do Git Bash, clone o repositório em sua máquina através do seguinte comando:
     ```
-    $ git clone https://github.com/IagoCB/Emprestimo-de-livros.git
+    $ git clone https://github.com/IagoCB/poc-teste-mock.git
     ```
 
 2. No diretório do projeto, utilize o comando a seguir para instalar as dependências:
