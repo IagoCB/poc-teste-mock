@@ -1,0 +1,25 @@
+{
+  "name": "poc-teste-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --testEnvironment=node --detectOpenHandles --runInBand --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IagoCB/poc-teste-mock.git"
+  },
+  "author": "iago-luiz-da-cruz-barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IagoCB/poc-teste-mock/issues"
+  },
+  "homepage": "https://github.com/IagoCB/poc-teste-mock#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "mongoose": "^5.13.5"
+  }
+}
