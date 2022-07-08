@@ -50,7 +50,7 @@ describe('editUser', () => {
 });
 
 describe('listUsers', () => {
-    it('Valid', async () => {
+    it('Valid list', async () => {
         UserModel.find = jest.fn().mockImplementation(() => ({
             exec: () => ({
                 id: 1,
@@ -72,7 +72,7 @@ describe('listUsers', () => {
 });
 
 describe('deleteUser', () => {
-    it('Valid', async () => {
+    it('Valid delete', async () => {
         UserModel.deleteOne = jest.fn().mockImplementation(() => ({
             exec: () => ({
                 deletedCount: 1,
